@@ -1,0 +1,30 @@
+$primary: $aqua;
+$secondary: $yellow;
+
+
+
+.input-group > .form-control:not(:last-child), .input-group >  .custom-select:not(:last-child) {
+  border-top-right-radius: none !important;
+  border-bottom-right-radius: none !important;
+  border-radius: 25px;
+  border: $primary solid 2px;
+
+}
+
+.input-group-append {
+  border-radius: 25px;
+  position: absolute;
+  right: -19px;
+  top: 0;
+  z-index: 4;
+
+    }
+
+
+    .input-group > .input-group-append > .btn, .input-group > .input-group-append > .input-group-text, .input-group > .input-group-prepend:not(:first-child) > .btn, .input-group > .input-group-prepend:not(:first-child) > .input-group-text, .input-group > .input-group-prepend:first-child > .btn:not(:first-child), .input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child) {
+      border-top-left-radius: inherit;
+      border-bottom-left-radius: inherit;
+      @media only screen and (max-width: 425px) {
+        width: 91%;
+      }
+    }
