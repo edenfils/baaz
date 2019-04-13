@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Starter-Kit-2019
 
 
@@ -38,6 +39,10 @@ On the root of this project run on your terminal (if you want you can do this wi
 ```bash
   npm run watch
 ```
+=======
+# baaz
+Mobile App Landing Page
+>>>>>>> remotes/origin/master
 =======
 # baaz
 Mobile App Landing Page
