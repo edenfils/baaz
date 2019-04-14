@@ -111,3 +111,43 @@
         eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./assets/scss/styles.scss?./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./node_modules/postcss-loader/src");
     }
 });
+
+
+$(window).on('scroll', function(event) {
+	var scrollValue = $(window).scrollTop();
+	if (scrollValue > 160) {
+		$('.slide-Left').addClass('animated slideInLeft');
+	}
+  if (scrollValue > 417) {
+    $('.slide-right-2').addClass('animated slideInRight');
+    $('.slide-left-2').addClass('animated slideInLeft');
+  }
+
+  if (scrollValue > 611) {
+    $('.slide-right-4').addClass('animated slideInRight');
+    $('.slide-left-4').addClass('animated slideInLeft');
+  }
+  if (scrollValue > 900) {
+    $('.slide-right').addClass('animated slideInRight');
+  }
+
+  if (scrollValue > 977) {
+    $('.slide-up').addClass('animated slideInUp');
+  }
+
+  if (scrollValue > 1650) {
+    $('.slide-right-3').addClass('animated slideInRight');
+    $('.slide-left-3').addClass('animated slideInLeft');
+  }
+
+  if (scrollValue > 2450) {
+    $('.get').addClass('animated fadeInUp');
+  }
+
+  if (scrollValue > 2600) {
+    $('.bounce-in').addClass('animated bounceIn');
+  }
+
+  console.log(scrollValue);
+
+});
